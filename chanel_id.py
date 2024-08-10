@@ -1,7 +1,7 @@
 from telethon import TelegramClient, events
 import asyncio
-api_id = ''
-api_hash = ''
+api_id = '28147543'
+api_hash = '8886559e735fb6c61942f56384c7725b'
 client = TelegramClient('none', api_id, api_hash)
 @client.on(events.NewMessage)
 async def handler(event):
